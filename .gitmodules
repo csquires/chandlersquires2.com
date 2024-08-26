@@ -1,0 +1,4 @@
+[submodule "public"]
+	path = public
+	url = https://github.com/csquires/csquires.github.io.git
+	branch = master
