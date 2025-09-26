@@ -33,12 +33,15 @@ profiles:
   
 interests:
   - Causality
-  - Representation Learning and Identifiability
-  - High-Dimensional Statistics and Semiparametric Efficiency
-  - Experimental Design and Sequential Decision-Making
+  - Representation Learning
+  - Experimental Design
+  - Neurosymbolic AI
   - Computational Biology/Genomics
 
 education:
+  - area: PhD in Electrical Engineering and Computer Science
+    institution: Massachusetts Institute of Technology
+    year: 2024
   - area: MEng in Electrical Engineering and Computer Science 
     institution: Massachusetts Institute of Technology
     year: 2019
@@ -46,19 +49,22 @@ education:
     institution: Massachusetts Institute of Technology
     year: 2018
 ---
-In September 2024, I am starting as a Postdoctoral Research Associate at CMU, supervised by 
+Since September 2024, I have been a Postdoctoral Research Associate in the Machine Learning Department at CMU, supervised by 
 {{< myshortcode "https://www.cs.cmu.edu/~pradeepr/" >}}Pradeep Ravikumar.{{< /myshortcode >}}
 Previously, I was a PhD Student at MIT, where I was advised by 
 {{< myshortcode "https://www.carolineuhler.com" >}}Caroline Uhler{{< /myshortcode >}} 
 and
 {{< myshortcode "https://people.csail.mit.edu/dsontag/" >}}David Sontag.{{< /myshortcode >}}
 
-I think of myself as working on the foundations of **Pragmatic Data Science**, a framework for statistical analysis that emphasizes downstream decision-making. 
-My research touches on several topics in causality (***causal effect estimation***, ***causal structure learning***, and ***causal representation learning***) and combines tools from high-dimensional statistics, combinatorial optimization, and machine learning. 
+My research focuses on the foundations and practical applications of **Neurosymbolic AI**, broadly construed as a discipline which integrate symbolic and nonsymbolic approaches for representation and computation. Within this space, I focus on symbolic representation learning and its downstream applications, including model steering, unlearning, and representation alignment.
 
-On the application side, I am broadly interested in AI4Science and the unique challenges encountered when bringing AI into scientific domains. Right now, I am focused on applications of my work in drug discovery and cellular biology.
+My research agenda is heavily influenced by {{< myshortcode "https://en.wikipedia.org/wiki/Pragmatism" >}}pragmatist philosophy{{< /myshortcode>}} and related principles, e.g. Vapnik's famous quote: "When solving a problem of interest, do not solve a more general problem as an intermediate step". In my {{< myshortcode "https://dspace.mit.edu/handle/1721.1/158952" >}}PhD thesis{{< /myshortcode>}}, I summarize this research philosophy as **Pragmatic Data Science**, which emphasizes a *decision-centric* viewpoint of machine learning and statistics. In line with this view, my PhD research focused on various problems in causality, including causal structure learning, causal representation learning, and causal effect estimation.
+<!--  -->
+**Favorite Flavors of Theory:** My theoretical work uses tools from high-dimensional statistics, identifiability theory, semiparametric efficiency theory, Bayesian experimental design, and combinatorial optimization.
+<!--  -->
+**Favorite Applications:** On the application side, I am broadly interested in AI4Science for AI4Operations, and the unique challenges encountered when bringing AI into scientific and engineering domains. Right now, I am focused on applications of my work in drug discovery, cellular biology, and manufacturing.
 
-*(Last update: August 26th, 2024)*
+*(Last update: September 25th, 2025)*
 
 ---
 **Teaching and Service.**
@@ -66,11 +72,6 @@ I developed and taught a seven-lecture course on causality for MIT's 2023 Januar
 {{< myshortcode "https://github.com/csquires/6.S091-causality" >}}lecture notes{{< /myshortcode >}} 
 and
 {{< myshortcode "https://www.youtube.com/playlist?list=PLiyH4sDpByicWHWv-xaI4gRbxrpFv2-FA" >}}recordings.{{< /myshortcode >}}
-<!--  -->
-I co-organize the 
-{{< myshortcode "https://portal.valencelabs.com/care" >}}Causality, Abstraction, Reasoning, and Extrapolation (CARE){{< /myshortcode >}}
-talk series, and I am serving as Publication Chair for 
-{{< myshortcode "https://www.cclear.cc/2025" >}}CLeaR 2025.{{< /myshortcode >}}
 <!--  -->
 During my PhD, I was a member of the 
 {{< myshortcode "https://mitcommlab.mit.edu/eecs/" >}}EECS Communication Lab,{{< /myshortcode >}} 
@@ -80,6 +81,6 @@ where I coached researchers on technical communication tasks such as paper writi
 {{< myshortcode "https://github.com/uhlerlab/causaldag" >}}causaldag,{{< /myshortcode >}}
 a Python package for creating, manipulating, and learning causal graphical models.
 
-**Other materials.** I try to keep an up-to-date repository of {{< myshortcode "https://github.com/uhlerlab/causaldag" >}}slides{{< /myshortcode >}} from my talks and {{< myshortcode "https://github.com/csquires/chandler-squires-posters" >}}posters{{< /myshortcode >}} from conferences and workshops.
+**Other materials.** I try to keep an up-to-date repository of {{< myshortcode "https://github.com/uhlerlab/causaldag" >}}slides{{< /myshortcode >}} from my talks and {{< myshortcode "https://github.com/csquires/chandler-squires-posters" >}}posters{{< /myshortcode >}} from conferences and workshops, but these are ~1 year out of date.
 
 ---

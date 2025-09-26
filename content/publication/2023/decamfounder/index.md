@@ -29,7 +29,7 @@ abstract: Many real-world decision-making tasks require learning causal relation
 tags:
 - Causal Structure Learning
 - Unobserved Confounding
-featured: true
+featured: false
 
 # links:
 # - name: ""

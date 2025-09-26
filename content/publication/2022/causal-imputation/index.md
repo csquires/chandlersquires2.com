@@ -31,8 +31,8 @@ abstract: Consider the problem of determining the effect of a drug on a specific
 # Summary. An optional shortened abstract. 
 
 tags:
-- Imputation
-featured: true
+- Causal imputation
+featured: false
 
 # links:
 # - name: ""
