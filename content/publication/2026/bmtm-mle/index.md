@@ -1,13 +1,15 @@
 ---
 title: "Maximum Likelihood Estimation for Brownian Motion Tree Models Based on One Sample"
 authors:
-- Michael Truell
-- Jan-Christian Hutter
 - admin
+- Michael Truell
+- Jan-Christian Hütter
 - Piotr Zwiernik
 - Caroline Uhler
-date: "2021-12-20T00:00:00Z"
-doi: ""
+date: "2026-11-01T00:00:00Z"
+doi: "10.3150/26-BEJ1970"
+aliases:
+- /publication/2021/bmtm-mle/
 
 # Schedule page publish date (NOT publication's date).
 publishDate: "2017-01-01T00:00:00Z"
@@ -16,9 +18,11 @@ publishDate: "2017-01-01T00:00:00Z"
 # Legend: 0 = Uncategorized; 1 = Conference paper; 2 = Journal article;
 # 3 = Preprint / Working Paper; 4 = Report; 5 = Book; 6 = Book section;
 # 7 = Thesis; 8 = Patent
-publication_types: ["3"]
+publication_types: ["2"]
 
 # Publication name and optional abbreviated publication name.
+publication: "Bernoulli"
+publication_short: "Bernoulli 2026"
 
 abstract: We study the problem of maximum likelihood estimation given one data sample (n=1) over Brownian Motion Tree Models (BMTMs), a class of Gaussian models on trees. BMTMs are often used as a null model in phylogenetics, where the one-sample regime is common. Specifically, we show that, almost surely, the one-sample BMTM maximum likelihood estimator (MLE) exists, is unique, and corresponds to a fully observed tree. Moreover, we provide a polynomial time algorithm for its exact computation. We also consider the MLE over all possible BMTM tree structures in the one-sample case and show that it exists almost surely, that it coincides with the MLE over diagonally dominant M-matrices, and that it admits a unique closed-form solution that corresponds to a path graph. Finally, we explore statistical properties of the one-sample BMTM MLE through numerical experiments.
 
@@ -32,7 +36,7 @@ featured: false
 # links:
 # - name: ""
 #   url: ""
-url_pdf: https://arxiv.org/abs/2112.00816
+url_pdf: https://projecteuclid.org/journals/bernoulli/volume-32/issue-4/Maximum-likelihood-estimation-for-Brownian-motion-tree-models-based-on/10.3150/26-BEJ1970.short
 url_code: ''
 url_dataset: ''
 url_poster: ''

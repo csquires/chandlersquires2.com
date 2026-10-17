@@ -1,5 +1,5 @@
 ---
-title: "Synthetic Potential Outcomes for Mixtures of Treatment Effects}"
+title: "Synthetic Potential Outcomes and Causal Mixture Identifiability"
 authors:
 - Bijan Mazaheri
 - admin

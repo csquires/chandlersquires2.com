@@ -1,0 +1,25 @@
+{{/* Hugo Blox Builder content preview renderer.
+Use hyphens for fragment names: modern Hugo interprets dotted names as
+output-format variants and otherwise resolves start/end to the body template. */}}
+
+{{ $page := .page }}
+{{ $item := .item }}
+{{ $view := lower .view | default "card" }}
+{{ $fragment := .fragment | default "body" }}
+{{ $view_dtype :=  printf "%T" $view }}
+{{ $index := .index }}
+{{ $html := "" }}
+
+{{ if not (templates.Exists (printf "partials/views/%s.html" $view)) }}
+  {{/* Fallback to card view */}}
+  {{ warnf "Failed to locate view at `partials/views/%s.html`. Check you specified a supported `view` in `%s`" $view $page.File.Path }}
+  {{ $view = "card" }}
+{{ end }}
+
+{{ if eq $fragment "body" }}
+  {{ $html = (partial (printf "views/%s.html" $view) (dict "page" $page "item" $item "index" $index "config" (.config | default dict))) }}
+{{ else }}
+  {{ $html = (partial (printf "views/%s-%s.html" $view $fragment) (dict "page" $page "item" $item "index" $index "config" (.config | default dict))) }}
+{{ end }}
+
+{{ return $html }}
