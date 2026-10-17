@@ -21,6 +21,7 @@ summary: "Compositional generation asks a conditional model to sample distributi
 
 tags:
 - Generative Models
+- Compositional Generation
 featured: false
 
 url_pdf: https://arxiv.org/pdf/2606.23920

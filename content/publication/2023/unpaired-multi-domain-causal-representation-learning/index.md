@@ -29,7 +29,7 @@ abstract: The goal of causal representation learning is to find a representation
 # Summary. An optional shortened abstract. 
 
 tags:
-- Causal Representation Learning
+- Representation Learning
 - Multi-modal
 featured: false
 

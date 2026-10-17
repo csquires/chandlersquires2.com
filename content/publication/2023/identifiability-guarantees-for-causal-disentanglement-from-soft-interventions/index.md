@@ -31,7 +31,7 @@ abstract: Causal disentanglement aims to uncover a representation of data using 
 # Summary. An optional shortened abstract. 
 
 tags:
-- Causal Representation Learning
+- Representation Learning
 - Interventions
 featured: false
 

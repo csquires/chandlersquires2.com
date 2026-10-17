@@ -27,7 +27,7 @@ abstract: Accurate estimates of causal effects play a key role in decision-makin
 # Summary. An optional shortened abstract.
 
 tags:
-- Causal Structure Learning 
+- Causality
 featured: true
 
 links:

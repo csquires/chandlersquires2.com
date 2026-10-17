@@ -26,7 +26,7 @@ abstract: A key goal of scientific discovery is the acquisition of knowledge tha
 tags:
 - Causal Structure Learning
 - Causal Representation Learning 
-featured: true
+featured: false
 
 links:
 url_pdf: https://dspace.mit.edu/handle/1721.1/158952

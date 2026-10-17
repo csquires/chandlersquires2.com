@@ -30,7 +30,7 @@ abstract: Causal disentanglement seeks a representation of data involving latent
 # Summary. An optional shortened abstract. 
 
 tags:
-- Causal Representation Learning
+- Representation Learning
 - Interventions
 featured: true
 

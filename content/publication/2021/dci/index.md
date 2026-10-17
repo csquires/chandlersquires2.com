@@ -5,7 +5,7 @@ authors:
 - admin
 - Caroline Uhler
 date: "2021-09-01T00:00:00Z"
-doi: "10.1093/bioinformatics/btab167"
+doi: ""
 
 # Schedule page publish date (NOT publication's date).
 publishDate: "2017-01-01T00:00:00Z"
@@ -21,9 +21,6 @@ tags:
 - Causal Structure Learning
 featured: false
 
-links:
-- name: Publisher
-  url: https://doi.org/10.1093/bioinformatics/btab167
 url_code: https://uhlerlab.github.io/causaldag/dci
 projects: []
 slides: ""
